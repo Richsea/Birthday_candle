@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <DatePicker
+        android:id="@+id/dpSpinner"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"/>
+        //tools:context=".MainActivity"
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
