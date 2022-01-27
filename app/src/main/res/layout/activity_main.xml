@@ -9,7 +9,7 @@
     //tools:context=".MainActivity"
 
     <DatePicker
-        android:id="@+id/dpSpinner"
+        android:id="@+id/spinBirthdayDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="188dp"
@@ -20,10 +20,11 @@
         tools:layout_editor_absoluteX="93dp" />
 
     <TextView
+        android:id="@+id/viewInputGuide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="생일을 입력하세요!"
-        app:layout_constraintBottom_toTopOf="@+id/dpSpinner"
+        app:layout_constraintBottom_toTopOf="@+id/spinBirthdayDate"
         app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -31,14 +32,14 @@
         app:layout_constraintVertical_bias="0.562" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCakeView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="52dp"
-        android:text="실행"
+        android:text="@string/activeButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dpSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/spinBirthdayDate"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
