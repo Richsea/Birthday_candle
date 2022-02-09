@@ -11,7 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        btnCakeView
+        btnCakeView.setOnClickListener{
+            viewInputGuide.text = "hello kotlin";
+        }
         // Button action
         //val moveButton = (Button) findViewById(R.id.activeButton)
         /*(
